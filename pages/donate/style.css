@@ -1,0 +1,379 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    max-width: 1600px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: auto;
+}
+header {
+    width: 100%;
+    margin: auto;
+    background: #000000;
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    display: none; 
+}
+.logo {
+    width: 82px;
+    height: 52px;
+    margin: 14px 0px 10px 220px;
+}
+nav {
+    width: 53%;
+    margin: 29px 0px auto 0px;
+    align-items: center;
+}
+nav a {
+    margin-right: 58px;
+}
+.link-of-nav {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.link-of-designed {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.link-of-nav:hover, .link-of-designed:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.designed {
+    margin: 29px 220px auto 0px;
+}
+.favorite-animal {
+    background-image: url("../../assets/images/Giant_Panda.png");
+    width: 100%;
+    height: 466px;
+    margin: 0;
+}
+
+.donation {
+    margin: auto;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, 
+    #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), 
+    linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, 
+    rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%,
+    #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, 
+    rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+.main-info {
+    width: 72.5%;
+    margin: auto;
+    padding-bottom: 180px;
+}
+.first-header {
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.main-info p {
+    margin-bottom: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.main-info h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FE9013;
+}
+.pick-and-feed {
+    width: 100%;    
+    margin: auto;
+    height: 964px;
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    text-align: center;
+}
+.pick-and-feed h2 {
+    margin: auto;
+    padding-top: 40px;
+}
+.pick-and-feed p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+}
+.diet {
+    width: 43%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.number-diet .number {
+    margin-bottom: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.number-diet p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #333B41;
+}
+.number-diet p:last-child {
+    margin-top: 11px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #333B41;
+}
+.mult {
+    margin-top: 40px;
+}
+.amount {
+    margin-top: 212px;
+    width: 268px;
+    height: 54px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #929699;
+    background: none;
+    border: 2px solid #929699;
+}
+.radio-donate {
+    margin: auto;
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+}
+.radio-desk {
+    margin-left: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border:1px solid #FE9013;
+    width: 16px;
+    height: 16px;
+    margin: 0;  
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: none;
+}
+.radio-desk:checked {
+    border:1px solid #4B9200;
+    background-color: #4B9200;
+}
+.radio-donate label {
+    margin-right: 40px;
+}
+.btn-feed {
+    display: block;
+    margin: auto;
+    margin-top: 44px;
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn-feed:hover {
+    background: #E47209;
+}
+.btn-feed:active {
+    background: #4B9200;
+}
+.pick-and-feed p:last-child{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+    margin-bottom: 62px;
+}
+footer {
+    background: #111115;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-donate-social {
+    display: flex;
+    flex-direction: column;
+    padding-left: 220px;
+}
+.logo-donate-social .logo {
+    margin: 41px auto 0 0;
+}
+.btn-donate {
+    width: 298px;
+    height: 54px;
+    margin-top: 65px;
+    margin-bottom: 34px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn-donate:hover {
+    background: #E47209;
+}
+.btn-donate:active {
+    background: #4B9200;
+}
+.social {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.link-on-social {
+    text-decoration: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.logo-social-network {
+    width: 26px;
+    height: 26px;
+    border-radius: 12px;
+    background: rgba(196, 196, 196, 0.5);
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name-social-network {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.social:last-child {
+    margin-bottom: 50px;
+}
+.navigation-footer {
+    width: 20%;
+    margin-top: 343px;
+    margin-left: 25px;
+}
+.navigation-footer nav a:last-child {
+    margin-right: 0;
+}
+.subscribe {
+    width: 24.2%;
+    margin-right: 200px;
+}
+.subscribe h3 {
+    margin-top: 40px;
+    margin-bottom: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.subscribe input[type="email"] {
+    width: 57%;
+    height: 42px;
+    margin: 0;
+    margin-right: 5px;
+    padding-left: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BDBDBD;
+    background: none;
+    outline:none;
+}
+.subscribe input[type="submit"] {
+    cursor: pointer;
+    width: 129px;
+    height: 42px;
+    margin: 0;
+    background: #F1F3F2;
+    border: 1px solid #4B9200;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #4B9200;
+}
+.design {
+    margin-top: 216px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-left: 145px;
+}
+.design p {
+    margin: 0;
+    margin-bottom: 5px;
+}
