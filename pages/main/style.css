@@ -13,45 +13,49 @@ header {
     margin: auto;
     background: #000000;
     backdrop-filter: blur(2px);
+}
+.containeer {
+    width: 1161px;
+    margin: 0px auto;   
+}
+.header__row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 h1 {
     display: none; 
 }
 .logo {
-    width: 82px;
-    height: 52px;
-    margin: 14px 0px 10px 220px;
+    width: 7%;
+    margin: 1.2% 0px;
 }
-nav {
+.logo__img {
+    width: 100%;
+}
+.menu {
     width: 53%;
-    margin: 29px 0px auto 0px;
-    align-items: center;
+    margin: auto;
 }
-nav a {
-    margin-right: 58px;
+.menu__items {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
 }
-.link-of-nav {
+.link {
     color: #FFFFFF;
     text-decoration: none;
 }
-.link-of-designed {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-.link-of-nav:hover, .link-of-designed:hover {
+.link:hover {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.designed {
-    margin: 29px 220px auto 0px;
-}
+
+
+
+
 .favorite-animal {
     background-image: url("../../assets/images/Giant_Panda.png");
     width: 100%;
