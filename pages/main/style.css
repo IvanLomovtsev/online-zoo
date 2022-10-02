@@ -28,23 +28,28 @@ h1 {
 }
 .logo {
     width: 7%;
-    margin: 1.2% 0px;
+    margin: 1.15% 0px;
 }
 .logo__img {
     width: 100%;
 }
 .menu {
-    width: 53%;
-    margin: auto;
+    width: 73.2%;
 }
 .menu__items {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     list-style-type: none;
+    padding: 0px;
+    
+}
+.items__marker {
+    margin-right: 7%;
 }
 .link {
     color: #FFFFFF;
     text-decoration: none;
+    
 }
 .link:hover {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
@@ -52,49 +57,47 @@ h1 {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-
-
-
-
-.favorite-animal {
+.main__banner {
+    margin-top: -5%;
     background-image: url("../../assets/images/Giant_Panda.png");
     width: 100%;
+    border: none;
+    padding-top: 92px;
 }
-.ellipse {
-    width: 465px;
-    height: 465px;
-    border-radius: 465px;
-    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-    margin-left: 809px;
-    margin-top: 12px;
-}
-.greetings {
+.banner__ellipse {
     position: relative;
-    top: 74px;
-    left: 87px;
+    width: 29em;
+    height: 29em;
+    border-radius: 50%;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    margin-left: 50.5%;
+}
+.banner__greeting {
+    position: absolute;
+    top: 15%;
+    left: 18%;
     margin: auto;
     font-weight: 700;
-    font-size: 106.5px;
-    line-height: 75%;
+    font-size: 6.3em;
+    line-height: 80%;
+    letter-spacing: 0.045em;
     text-align: center;
     text-transform: uppercase;
 }
 .yellow-word {
     color:#FFEE2E;
 }
-.btn-watch {
-    width: 298px;
-    height: 54px;
-    margin-left: 980px;
-    margin-top: 70px;
-    margin-bottom: 100px;
+.banner__btn-watch {
+    width: 18.5%;
+    margin: 4.2% auto 100px 61.5%;
+    padding: 1%;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 25px;
     border: none;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 140%;
     text-align: center;
     text-transform: uppercase;
