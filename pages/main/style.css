@@ -304,57 +304,56 @@ h1 {
     position: absolute;
     top: 1010px;
     right: 0;
-}git config
-
-
-.pick-and-feed {
+}
+.main__pick-and-feed {
     background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
     opacity: 0.9;
-    padding-top:69px;
-    padding-bottom: 100px;
+    padding-top: 2%;
+    padding-bottom: 6.2%;
 }
-.main-info {
+.pick-and-feed__info {
     width: 72.5%;
     margin: auto;
     background: rgba(253, 253, 255, 0.52);
     backdrop-filter: blur(2px);
     border-radius: 20px;
-    padding-bottom: 59px;
+    padding-bottom: 3%;
 }
-.main-info h2 {
-    padding-top: 40px;
+.pick-and-feed__info-h2 {
+    padding-top: 3.3%;
+    margin-bottom: 2.9%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3em;
     line-height: 120%;
     text-align: center;
     color: #FE9013;
 }
-.first-paragraph {
-    margin-top: 30px;
-    margin-left: 99px;
+.pick-and-feed__info-first-p {
+    margin-left: 8.5%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5em;
     line-height: 120%;
     color: #333B41;
 }
-.second-paragraph {
+.pick-and-feed__second-p {
     margin-top: 40px;
     margin-bottom: 10px;
     margin-left: 99px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 130%;
+    font-size: 1em;
+    line-height: 120%;
+    letter-spacing: 0.005em;
     color: #333B41;
 }
-.third-paragraph {
-    width: 870px;
-    margin-top: 10px;
+.pick-and-feed__third-p {
+    width: 75%;
+    margin-top: 1%;
     margin-left: 99px;
     font-family: 'Roboto';
     font-style: normal;
@@ -363,35 +362,42 @@ h1 {
     line-height: 130%;
     color: #333B41;
 }
-.main-info h3 {
+.pick-and-feed__third-p-a {
+    color: #333B41;
+    text-decoration: none;
+    padding-bottom: 0.2%;
+    border-bottom: 1px solid #FE9013;
+}
+.pick-and-feed__h3 {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 5.2%;
     margin-bottom: 0;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.2em;
     line-height: 130%;
     color: #333B41;
 }
-.stages {
+.pick-and-feed__stages {
     width: 66%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 3.5%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.stage-picture {
-    width: 168px;
-    height: 168px;
+.stage__picture {
+    width: 10em;
+    height: 10em;
     background: #FFFFFF;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #FE9013; 
+    border: 1px solid #FE9013;
 }
-.stage-description {
+.stage__description {
     width: 168px;
     margin-top: 30px;
     font-family: 'Roboto';
@@ -401,10 +407,10 @@ h1 {
     line-height: 140%;
     color: #333B41;
 }
-.separator {
-    padding-top: 60px;
+.stages__separator {
+    
 }
-.btn-feed {
+.pick-and-feed__btn-feed {
     display: block;
     margin: auto;
     margin-top: 44px;
@@ -429,6 +435,9 @@ h1 {
 .btn-feed:active {
     background: #4B9200;
 }
+
+
+
 .testimonials {
     position: relative;
     overflow: hidden;
