@@ -441,11 +441,11 @@ h1 {
 .main__testimonials-h2 {
     width: 100%;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 8.8%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.25em;
     line-height: 130%;
     text-align: center;
     color: #333B41;
@@ -453,45 +453,52 @@ h1 {
 .testimonials__last {
     width: 72.5%;
     margin: auto;
+    margin-top: 2.9%;
     display: flex;
     justify-content: space-between;
-    margin-top: 47px;
 }
 .last__review {
-    width: 268px;
-    height: 391px;
+    width: 23%;
+    padding-bottom: 1.9%;
     background: #F1F3F2;
     border-radius: 20px;
 }
 .review__profile {
     display: flex;
-    margin-top: 2px;
+    align-items: center;
+    margin-bottom: -1%;
 }
-.profile__image {
-    margin: 15px 10px 11px 16px;
-    width: 37px;
-    height: 37px;
+.profile__picture {
+    margin: 6% 4.2% 4% 6%;
+}
+.profile__picture-img {
+    width: 100%;
+    height: auto;
+}
+.profile__information {
+    width: 70%;
 }
 .information__name {
+    margin:0;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 120%;
     color: #000000;
-    margin:0;
-    margin-top: 15px;
 }
 .information__info {
+    margin:0;
+    padding: 0; 
+    margin-right: 3%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 0.95em;
     line-height: 120%;
     color: #BDBDBD;
-    padding-right: 5px;
 }
-.text-of-testimonials {
+.review__text-p {
     margin: 0 15px 0 16px;
     font-family: 'Roboto';
     font-style: normal;
@@ -499,10 +506,7 @@ h1 {
     font-size: 15px;
     line-height: 120%;
     color: #767474;
-}
-.text-of-testimonials:last-child {
-    margin-bottom: 19px;
-}
+}   
 .progress {
     margin: auto;
     text-align: center;
