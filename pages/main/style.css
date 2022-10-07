@@ -434,11 +434,11 @@ h1 {
 .pick-and-feed__btn-feed:active {
     background: #4B9200;
 }
-.testimonials {
+.main__testimonials {
     position: relative;
     overflow: hidden;
 }
-.testimonials h2 {
+.main__testimonials-h2 {
     width: 100%;
     text-align: center;
     margin-top: 140px;
@@ -450,29 +450,29 @@ h1 {
     text-align: center;
     color: #333B41;
 }
-.last-testimonials {
+.testimonials__last {
     width: 72.5%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     margin-top: 47px;
 }
-.testimonial {
+.last__review {
     width: 268px;
     height: 391px;
     background: #F1F3F2;
     border-radius: 20px;
 }
-.profile {
+.review__profile {
     display: flex;
     margin-top: 2px;
 }
-.profile-image {
+.profile__image {
     margin: 15px 10px 11px 16px;
     width: 37px;
     height: 37px;
 }
-.name {
+.information__name {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -482,7 +482,7 @@ h1 {
     margin:0;
     margin-top: 15px;
 }
-.info {
+.information__info {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
