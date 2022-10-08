@@ -521,29 +521,31 @@ h1 {
 }   
 .testimonials__progress {
     position: relative;
-    width: 38.43%;
+    width: 37.43%;
     margin: auto;
     text-align: center;
-    margin-top: 0.8%;
-    margin-bottom: 1.6%;
+    margin-top: 1.2%;
+    margin-bottom: 1.8%;
 }
 .progress__border {
     position: relative;
     width: 100%;
-    height: 0.4vw;  
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
     background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
     border-radius: 5px;
 }
 .progress__range {
     position: absolute;
-    top: -1px;
-    bottom: -1px;
-    left: -1px;
-    right: -1px;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
     -webkit-appearance: none;
     margin: auto;
-    width: 99.8%;
+    width: 99.5%;
     height: 0.3vw;
+    border: 1px solid #E0D8F0;
     background: -webkit-linear-gradient(left, #FE9013 0%, #FE9013 18%, #FFFFFF 0%, #FFFFFF 18%);
     border-radius: 5px;
 }
