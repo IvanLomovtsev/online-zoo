@@ -26,7 +26,7 @@ header {
 h1 {
     display: none; 
 }
-.logo {
+.header__logo {
     width: 7%;
     margin: 1.15% 0px;
 }
@@ -36,12 +36,11 @@ h1 {
 .menu {
     width: 73.2%;
 }
-.menu__items {
+.header__menu-items {
     display: flex;
     align-items: center;
     list-style-type: none;
     padding: 0px;
-    
 }
 .items__marker {
     margin-right: 7%;
@@ -108,7 +107,7 @@ h1 {
 .banner__btn-watch:hover {
     background: #E47209;
 }
-.banner__btn-watch:active {
+.banner__btn-watch:focus {
     background: #4B9200;
 }
 .main__backstage {
@@ -202,7 +201,7 @@ h1 {
 .btn-left:hover, .btn-right:hover {
     background: #E47209;
 }
-.btn-left:active, .btn-right:active {
+.btn-left:focus, .btn-right:focus {
     background: #4B9200;
 }
 .vector-left {
@@ -293,7 +292,7 @@ h1 {
 .pets__btn-choose-favorite:hover {
     background: #E47209;
 }
-.pets__btn-choose-favorite:active {
+.pets__btn-choose-favorite:focus {
     background: #4B9200;
 }
 .pets__palm {
@@ -431,7 +430,7 @@ h1 {
 .pick-and-feed__btn-feed:hover {
     background: #E47209;
 }
-.pick-and-feed__btn-feed:active {
+.pick-and-feed__btn-feed:focus {
     background: #4B9200;
 }
 .main__testimonials {
@@ -474,7 +473,7 @@ h1 {
     background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
     border-radius: 20px;
     z-index: -1;
-  }
+}
 .review__profile {
     display: flex;
     align-items: center;
@@ -594,7 +593,7 @@ h1 {
 .testimonials__btn-feedback:hover {
     background: #E47209;
 }
-.testimonials__btn-feedback:active {
+.testimonials__btn-feedback:focus {
     background: #4B9200;
 }
 .testimonials__leav {
@@ -602,119 +601,137 @@ h1 {
     right:0px;
     top: 645px;
 }
-
-
-footer {
+.footer {
     background: #111115;
+}
+.footer__row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.logo-donate-social {
+.footer__logo-donate-social {
+    width: 26%;
     display: flex;
     flex-direction: column;
-    padding-left: 220px;
 }
-.logo-donate-social .logo {
-    margin: 41px auto 0 0;
+.footer__logo {
+    width: 28%;
+    margin: 13.5% auto 0 0;
 }
-.btn-donate {
-    width: 298px;
-    height: 54px;
-    margin-top: 65px;
-    margin-bottom: 34px;
+.donate__btn-donate {
+    width: 99%;
+    padding: 5.5%;
+    margin-top: 21%;
+    margin-bottom: 11.5%;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 5px;
     border: none;
-    font-family: 'Roboto';
+    font-family: 'Roboto';  
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 140%;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
     cursor: pointer;
 }
-.btn-donate:hover {
+.donate__btn-donate:hover {
     background: #E47209;
 }
-.btn-donate:active {
+.donate__btn-donate:focus {
     background: #4B9200;
 }
-.social {
-    margin-top: 10px;
+.footer__social {
+    margin-top: 3.4%;
     margin-bottom: 0;
 }
-.link-on-social {
+.social__link {
     text-decoration: none;
     margin: 0;
     display: flex;
     align-items: center;
 }
-.logo-social-network {
-    width: 26px;
-    height: 26px;
+.social__logo {
+    width: 1.5vw;
+    height: 1.5vw;
     border-radius: 12px;
     background: rgba(196, 196, 196, 0.5);
-    margin-right: 12px;
+    margin-right: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.name-social-network {
+.social__name {
     margin: 0;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 140%;
     color: #FFFFFF;
 }
-.social:last-child {
+.footer__social:last-child {
     margin-bottom: 50px;
 }
-.navigation-footer {
-    width: 20%;
-    margin-top: 343px;
-    margin-left: 25px;
+.footer__menu {
+    width: 42%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-right: 0;
+    margin-top: 32.2%;
 }
-.navigation-footer nav a:last-child {
+.footer__menu-items {
+    width: 73.7%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: auto;
+    margin-right: 7%;
+    padding: 0px;
+}
+.footer__items-marker {
     margin-right: 0;
 }
-.subscribe {
-    width: 24.2%;
-    margin-right: 200px;
+.footer__subscribe {
+    width: 31.6%;
 }
-.subscribe h3 {
-    margin-top: 40px;
-    margin-bottom: 12px;
+.footer__subscribe-h3 {
+    margin-top: 11%;
+    margin-bottom: 4%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5em;
     line-height: 120%;
     color: #FFFFFF;
 }
-.subscribe input[type="email"] {
-    width: 57%;
-    height: 42px;
+.subscribe__field {
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe__field-email {
+    width: 58%;
     margin: 0;
-    margin-right: 5px;
-    padding-left: 5px;
+    padding-left: 3%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 140%;
     color: #BDBDBD;
     background: none;
     outline:none;
+    border: 1px solid #F9804B;
 }
-.subscribe input[type="submit"] {
+.subscribe__field-email:focus {
+    border: 1px solid #4B9200;
+}
+.subscribe__field-submit {
     cursor: pointer;
-    width: 129px;
-    height: 42px;
+    width: 35%;
+    padding: 2.2%;
     margin: 0;
     background: #F1F3F2;
     border: 1px solid #4B9200;
@@ -722,21 +739,22 @@ footer {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 140%;
     color: #4B9200;
 }
-.design {
-    margin-top: 216px;
+.footer__design {
+    margin-top: 59%;
+    margin-right: 2%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 130%;
     color: #FFFFFF;
-    padding-left: 145px;
 }
-.design p {
+.footer__design-p {
     margin: 0;
-    margin-bottom: 5px;
+    margin-bottom: 3%;
+    text-align: right;
 }
