@@ -15,8 +15,8 @@ header {
     backdrop-filter: blur(2px);
 }
 .containeer {
-    width: 1161px;
-    margin: 0px auto;   
+    width: 72.56%;
+    margin: 0% auto;   
 }
 .header__row {
     display: flex;
@@ -28,7 +28,7 @@ h1 {
 }
 .header__logo {
     width: 7%;
-    margin: 1.15% 0px;
+    margin: 1.15% 0%;
 }
 .logo__img {
     width: 100%;
@@ -40,15 +40,18 @@ h1 {
     display: flex;
     align-items: center;
     list-style-type: none;
-    padding: 0px;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.95vw;
 }
 .items__marker {
     margin-right: 7%;
 }
 .link {
     color: #FFFFFF;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 .link:hover {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
@@ -62,12 +65,12 @@ h1 {
     background-size: 100%;
     width: 100%;
     border: none;
-    padding-top: 92px;
+    padding-top: 5.8%;
 }
 .banner__ellipse {
     position: relative;
-    width: 29em;
-    height: 29em;
+    width: 29%;
+    padding: 14.5% 0%;
     border-radius: 50%;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     margin-left: 50.5%;
@@ -78,7 +81,7 @@ h1 {
     left: 18%;
     margin: auto;
     font-weight: 700;
-    font-size: 6.3em;
+    font-size: 5.9vw;
     line-height: 80%;
     letter-spacing: 0.045em;
     text-align: center;
@@ -97,7 +100,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.9vw;
     line-height: 140%;
     text-align: center;
     text-transform: uppercase;
@@ -123,7 +126,7 @@ h1 {
     overflow: hidden;
 }
 .backstage__img-man {
-    margin: 0;
+    margin: 0%;
     width: 52.3%;
     height: auto;
 }
@@ -135,11 +138,11 @@ h1 {
     margin-left: 7.7%;
 }
 .backstage__text_h2 {
-    margin: 0;
+    margin: 0%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 3em;
+    font-size: 2.82vw;
     line-height: 120%;
     color: #333B41;
 }
@@ -148,7 +151,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 0.935vw;
     line-height: 130%;
     color: #333B41;
 }
@@ -157,7 +160,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.4vw;
     line-height: 120%;
     color: #333B41;
 }
@@ -167,7 +170,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 0.935vw;
     line-height: 140%;
     color: #333B41;
 }
@@ -243,7 +246,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.93vw;
     line-height: 140%;
     text-transform: uppercase;
     color: #000000;
@@ -282,7 +285,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.94vw;
     line-height: 140%;
     text-align: center;
     text-transform: uppercase;
@@ -324,7 +327,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 3em;
+    font-size: 2.82vw;
     line-height: 120%;
     text-align: center;
     color: #FE9013;
@@ -334,18 +337,18 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.41vw;
     line-height: 120%;
     color: #333B41;
 }
 .pick-and-feed__second-p {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    margin-left: 99px;
+    margin-top: 3.4%;
+    margin-bottom: 1%;
+    margin-left: 8.5%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.937vw;
     line-height: 120%;
     letter-spacing: 0.005em;
     color: #333B41;
@@ -357,7 +360,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 0.937vw;
     line-height: 130%;
     color: #333B41;
 }
@@ -374,7 +377,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 2.2em;
+    font-size: 2.15vw;
     line-height: 130%;
     color: #333B41;
 }
