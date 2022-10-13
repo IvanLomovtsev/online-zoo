@@ -423,7 +423,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.933vw;
     line-height: 140%;
     text-align: center;
     text-transform: uppercase;
@@ -447,7 +447,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 2.25em;
+    font-size: 2.1vw;
     line-height: 130%;
     text-align: center;
     color: #333B41;
@@ -483,7 +483,7 @@ h1 {
     margin-bottom: -1%;
 }
 .profile__picture {
-    margin: 6% 4.2% 4% 6%;
+    margin: 5% 4.2% 4% 6%;
 }
 .profile__picture-img {
     width: 100%;
@@ -497,7 +497,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 0.92vw;
     line-height: 120%;
     color: #000000;
 }
@@ -508,16 +508,16 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 0.95em;
+    font-size: 0.9vw;
     line-height: 120%;
     color: #BDBDBD;
 }
 .review__text-p {
-    margin: 0 15px 0 16px;
+    margin: 0 5% 0 6.2%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 0.88vw;
     line-height: 120%;
     color: #767474;
 }   
@@ -527,7 +527,7 @@ h1 {
     margin: auto;
     text-align: center;
     margin-top: 1.2%;
-    margin-bottom: 1.8%;
+    margin-bottom: 1.9%;
 }
 .progress__border {
     position: relative;
@@ -585,7 +585,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.95vw;
     line-height: 140%;
     text-align: center;
     text-transform: uppercase;
@@ -624,7 +624,7 @@ h1 {
 .donate__btn-donate {
     width: 99%;
     padding: 5.5%;
-    margin-top: 21%;
+    margin-top: 21.1%;
     margin-bottom: 11.5%;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 5px;
@@ -632,7 +632,7 @@ h1 {
     font-family: 'Roboto';  
     font-style: normal;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.95vw;
     line-height: 140%;
     text-align: center;
     text-transform: uppercase;
@@ -670,7 +670,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 0.925vw;
     line-height: 140%;
     color: #FFFFFF;
 }
@@ -706,7 +706,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.4vw;
     line-height: 120%;
     color: #FFFFFF;
 }
@@ -721,7 +721,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 0.95vw;
     line-height: 140%;
     color: #BDBDBD;
     background: none;
@@ -742,7 +742,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 0.95vw;
     line-height: 140%;
     color: #4B9200;
 }
@@ -752,7 +752,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 100;
-    font-size: 1em;
+    font-size: 0.95vw;
     line-height: 130%;
     color: #FFFFFF;
 }
