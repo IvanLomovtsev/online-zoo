@@ -59,6 +59,21 @@ h1 {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+@media screen and (min-width: 1000px) {
+    .containeer {
+        width: 94%;
+    }
+    .header__logo {
+        width: 8.7%;
+        margin: 1.4% 0%;     
+    }
+    .header__menu {
+        padding-left: 6.6%;
+    }
+    .header__menu-items {
+        font-size: 1.58vw;
+    }
+}
 .main__banner {
     margin-top: -5%;
     background-image: url("../../assets/images/Giant_Panda.png");
@@ -128,7 +143,6 @@ h1 {
 .backstage__img-man {
     margin: 0%;
     width: 52.3%;
-    height: auto;
 }
 .backstage__text{
     width: 72.56%;
@@ -175,6 +189,7 @@ h1 {
     color: #333B41;
 }
 .backstage__flower {
+    width: 12.7%;
     position: absolute;
     top: 0;
     right: 0;
@@ -242,7 +257,7 @@ h1 {
     justify-content: space-between;
 }
 .description__text-h3 {
-    margin: 2% auto 0 15px; 
+    margin: 2% auto 0 15px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -256,7 +271,7 @@ h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 0.94em;
+    font-size: 0.88vw;
     line-height: 120%;
     color: #000000;
 }
