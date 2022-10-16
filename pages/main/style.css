@@ -462,7 +462,7 @@ h1 {
     line-height: 120%;
     color: #333B41;
 }
-.pick-and-feed__second-p {
+.pick-and-feed__info-second-p {
     margin-top: 3.4%;
     margin-bottom: 1%;
     margin-left: 8.5%;
@@ -474,7 +474,7 @@ h1 {
     letter-spacing: 0.005em;
     color: #333B41;
 }
-.pick-and-feed__third-p {
+.pick-and-feed__info-third-p {
     width: 75%;
     margin-top: 1%;
     margin-left: 99px;
@@ -485,7 +485,7 @@ h1 {
     line-height: 130%;
     color: #333B41;
 }
-.pick-and-feed__third-p-a {
+.pick-and-feed__info-third-p-a {
     color: #333B41;
     text-decoration: none;
     padding-bottom: 0.2%;
@@ -530,7 +530,7 @@ h1 {
     color: #333B41;
 }
 .stages__separator {
-    margin-top: 3.5vw;
+    margin-top: 8%;
 }
 .pick-and-feed__btn-feed {
     display: block;
@@ -560,6 +560,57 @@ h1 {
 .main__testimonials {
     position: relative;
     overflow: hidden;
+}
+@media screen and (max-width: 1000px) {
+    .main__pick-and-feed {
+        padding-top: 0.5%;
+        padding-bottom: 5%;
+    }
+    .pick-and-feed__info {
+        width: 94.5%;
+    }
+    .pick-and-feed__info-h2 {
+        margin: 2.3%;
+        font-size: 4.8vw;
+    }
+    .pick-and-feed__info-first-p {
+        margin: 0% 5.4%;
+        font-size: 2.4vw;  
+    }
+    .pick-and-feed__info-second-p {
+        margin: 2.1% 10% 0% 5.4%;
+        font-size: 1.6vw;
+        line-height: 130%;
+    }
+    .pick-and-feed__info-third-p {
+        width: 90%;
+        margin: 1.4% 0% 1.5% 5.4%;
+        font-size: 1.6vw;
+        line-height: 130%;
+    }
+    .pick-and-feed__h3 {
+        font-size: 3.6vw;
+        margin-top: 4%;
+    }
+    .pick-and-feed__stages {
+        width: 81%;
+        margin-top: 4.2%;
+    }
+    .stage__picture {
+        width: 16.5vw;
+        height: 16.5vw;
+    }
+    .stage__description {
+        margin-top: 19%;
+        width: 16.5vw;
+        font-size: 1.55vw;
+    }
+    .pick-and-feed__btn-feed {
+        width: 31.5%;
+        margin: 6% auto 1%;
+        padding: 1.8%;
+        font-size: 1.58vw;
+    }
 }
 .main__testimonials-h2 {
     width: 100%;
