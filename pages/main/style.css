@@ -293,12 +293,12 @@ h1 {
     background: url("../../assets/icons/right.svg") no-repeat;
 }
 .pets__cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
     width: 72.4%; 
     margin: 0 1.3%;
+}
+.pets__cards-row {
+    display: flex;
+    justify-content: space-between;
 }
 .cards__card {
     width: 31.5%;
