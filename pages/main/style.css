@@ -295,10 +295,16 @@ h1 {
 .pets__cards {
     width: 72.4%; 
     margin: 0 1.3%;
+    display: flex;
+    flex-direction: column;
 }
 .pets__cards-row {
     display: flex;
     justify-content: space-between;
+}
+.btn-middle-screen {
+    display: none;
+    margin: auto;
 }
 .cards__card {
     width: 31.5%;
@@ -373,12 +379,54 @@ h1 {
 }
 .pets__palm {
     position: absolute;
-    top: 820px;
+    width: 18%;
+    bottom: 0;
+    left:0;
 }
 .pets__strelitzia {
     position: absolute;
-    top: 1010px;
+    width: 23%;
+    bottom: 0;
     right: 0;
+}
+@media screen and (max-width: 1000px) {
+    .big-screen {
+        display: none;
+    }
+    .btn-middle-screen {
+        display: block;
+        width: 31.5%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0.8% auto;
+    }
+    .pets__cards {
+        width: 94%;
+        margin-top: 2.8%;
+    }
+    .cards__card {
+        width: 31%;
+    }
+    .description__text-h3 {
+        margin-top: 4%; 
+        font-size: 1.6vw;
+    }
+    .description__text-habitat {
+        font-size: 1.5vw;
+    }
+    .description__food-banana {
+        width: 12%;
+        margin-right: 4%;
+    }
+    .description__food-meet {
+        width: 20%;
+    }
+    .pets__btn-choose-favorite {
+        width: 30%;
+        margin: 7% auto 14%;
+        padding: 1.5%;
+        font-size: 1.58vw;
+    }
 }
 .main__pick-and-feed {
     background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
