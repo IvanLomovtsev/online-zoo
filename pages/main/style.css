@@ -16,7 +16,7 @@ header {
 }
 .containeer {
     width: 72.56%;
-    margin: 0% auto;   
+    margin: auto;   
 }
 .header__row {
     display: flex;
@@ -81,8 +81,7 @@ h1 {
 .main__banner {
     margin-top: -5%;
     background-image: url("../../assets/images/Giant_Panda.png");
-    background-size: 120%;
-    background-position: 50% 100%;
+    background-position: center;
     width: 100%;
     border: none;
     padding-top: 5.8%;
@@ -134,6 +133,10 @@ h1 {
     background: #4B9200;
 }
 @media screen and (max-width: 1000px) {
+    .main__banner {
+        background-size: 120%;
+        background-position: 50% 100%;
+    }
     .banner__ellipse {
         width: 36.6%;
         padding: 18.3% 0%;
@@ -160,22 +163,21 @@ h1 {
 }
 .backstage__row {
     margin: auto;
-    width: 72.8%;
     display: flex;
+    justify-content: space-between;
     overflow: hidden;
 }
 .backstage__img-man {
     margin: 0%;
-    width: 52.3%;
+    width: 52.5%;
+    background-image: url("../../assets/images/bamboo_cap.png");
+    background-size: cover;
 }
 .backstage__text{
-    width: 72.56%;
-    margin: auto;
+    width: 40%;
+    margin: 0%;
 }
-.backstage__text {
-    margin-left: 7.7%;
-}
-.backstage__text_h2 {
+.backstage__text-h2 {
     margin: 0%;
     font-family: 'Roboto';
     font-style: normal;
@@ -184,7 +186,7 @@ h1 {
     line-height: 120%;
     color: #333B41;
 }
-.backstage__text_about {
+.backstage__text-about {
     margin-top: 5%;
     font-family: 'Roboto';
     font-style: normal;
@@ -193,7 +195,7 @@ h1 {
     line-height: 130%;
     color: #333B41;
 }
-.backstage__text_h3 {
+.backstage__text-h3 {
     margin-top: 12%;
     font-family: 'Roboto';
     font-style: normal;
@@ -202,7 +204,7 @@ h1 {
     line-height: 120%;
     color: #333B41;
 }
-.backstage__text_goal {
+.backstage__text-goal {
     margin: 0;
     margin-top: 7%;
     font-family: 'Roboto';
@@ -217,6 +219,38 @@ h1 {
     position: absolute;
     top: 0;
     right: 0;
+}
+@media screen and (max-width: 1000px) {
+    .backstage__row {
+        margin-top: 3%;
+    }
+    .backstage__img-man {
+        width: 48.5%;
+        background-position: 50% 100%;
+    }
+    .backstage__text {
+        width: 48.3%;
+    }
+    .backstage__text-h2 {
+        margin-top: -2%;
+        font-size: 4.8vw;
+    }
+    .backstage__text-about {
+        margin-top: 5%;
+        font-size: 1.6vw;
+        line-height: 120%;
+    }
+    .backstage__text-h3 {
+        font-size: 2.4vw;
+    }
+    .backstage__text-goal {
+        margin-top: 8%;
+        font-size: 1.6vw;
+        line-height: 137%;
+    }
+    .backstage__flower {
+        display: none;
+    }
 }
 .main__pets {
     position: relative;
