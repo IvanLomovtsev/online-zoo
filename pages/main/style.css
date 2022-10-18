@@ -773,8 +773,8 @@ h1 {
 }
 .testimonials__leav {
     position: absolute;
-    right:0px;
-    top: 645px;
+    right: 0%;
+    bottom: -15%;
 }
 @media screen and (max-width: 1000px) {
     .last__review:nth-child(n+4) {
@@ -825,6 +825,10 @@ h1 {
         font-size: 1.6vw;
         padding: 1.4%;
         margin: 3.5% auto 14.2% 3%;
+    }
+    .testimonials__leav {
+        right: -2.5%;
+        scale: 0.8;
     }
 }
 .footer {
@@ -984,3 +988,6 @@ h1 {
     margin-bottom: 3%;
     text-align: right;
 }
+@media screen and (max-width: 1000px) {
+    
+ }
