@@ -989,5 +989,27 @@ h1 {
     text-align: right;
 }
 @media screen and (max-width: 1000px) {
+    .footer>.containeer {
+        width: 91.5%;
+    }
+    .footer__logo-donate-social {
+        width: 36.5%;
+    }
+    .footer__logo {
+        width: 28%;
+    }
+    .donate__btn-donate {
+        font-size: 1.6vw;
+    }
+    .footer__social {
+        margin-top: 3.5%;
+    }
+    .social__logo {
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    .social__name {
+        font-size: 1.6vw;
+    }
     
  }
