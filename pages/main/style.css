@@ -776,6 +776,57 @@ h1 {
     right:0px;
     top: 645px;
 }
+@media screen and (max-width: 1000px) {
+    .last__review:nth-child(n+4) {
+        display: none;
+    }
+    .main__testimonials-h2 {
+        font-size: 3.6vw;
+        margin-top: 10.1%;
+    }
+    .testimonials__last {
+        width: 93.5%;
+        margin-top: 3.4%;
+    }
+    .last__review {
+        width: 31%;
+        padding-bottom: 3.9%;
+    }
+    .profile__picture {
+        margin-top: 4%;
+        margin-left: 4%;
+    }
+    .information__name {
+        font-size: 1.6vw;
+    }
+    .information__info {
+        font-size: 1.53vw;
+    }
+    .review__text-p {
+        margin-left: 4.2%;
+        font-size: 1.53vw;
+        line-height: 118%;  
+    }
+    .testimonials__progress {
+        margin-top: 2.2%;
+        width: 40%;
+    }
+    .progress__range {
+        height: 0.5vw;
+    }
+    .progress__range::-webkit-slider-thumb {
+        height: 0.5vw;
+    }
+    .progress__range::-moz-range-thumb {
+        height: 0.5vw;
+    }
+    .testimonials__btn-feedback {
+        width: 29.8%;
+        font-size: 1.6vw;
+        padding: 1.4%;
+        margin: 3.5% auto 14.2% 3%;
+    }
+}
 .footer {
     background: #111115;
 }
