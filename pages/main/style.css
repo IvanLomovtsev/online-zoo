@@ -991,9 +991,10 @@ h1 {
 @media screen and (max-width: 1000px) {
     .footer>.containeer {
         width: 91.5%;
+        position: relative;
     }
     .footer__logo-donate-social {
-        width: 36.5%;
+        width: 33%;
     }
     .footer__logo {
         width: 28%;
@@ -1011,5 +1012,28 @@ h1 {
     .social__name {
         font-size: 1.6vw;
     }
-    
+    .footer__menu {
+        position: absolute;
+        width: 49.5%;
+        right: 28.1%;
+        top: 18%;
+    }
+    .footer__subscribe {
+        width: 40.5%;
+    }
+    .footer__subscribe-h3 {
+        font-size: 2.36vw;
+    }
+    .subscribe__field-submit {
+        margin-right: 2%;
+        font-size: 1.6vw;
+    }
+    .subscribe__field-email {
+        font-size: 1.6vw;
+    }
+    .footer__design-p {
+        font-size: 1.63vw;
+        margin-right: -7.8%;
+        margin-top: 5%;
+    }
  }
