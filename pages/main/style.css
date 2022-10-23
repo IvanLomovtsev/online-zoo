@@ -295,6 +295,36 @@ h1 {
         display: none;
     }
 }
+@media screen and (max-width: 640px) {
+    .backstage__img-man {
+        display: none;
+    }
+    .backstage__text {
+        width: 82%;
+    }
+    .backstage__text-h2 {
+        font-size: 7.5vw;
+        margin-left: 1%;
+    }
+    .backstage__text-about {
+        font-size: 2.5vw;
+    }
+    .backstage__text-h3 {
+        margin-top: 7%;
+        margin-left: 1.2%;
+        margin-bottom: 3.6%;
+        font-size: 3.7vw;
+    }
+    .backstage__text-goal {
+        margin-top: 0%;
+        font-size: 2.5vw;
+    }
+    .backstage__flower {
+        display: block;
+        width: 25%; 
+        right: -5%;   
+    }
+}
 .main__pets {
     position: relative;
     display: flex;
