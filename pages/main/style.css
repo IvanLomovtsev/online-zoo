@@ -182,6 +182,22 @@ h1 {
         font-size: 1.5vw;
     }
 }
+@media screen and (max-width: 640px) {
+    .banner__ellipse {
+        margin-left: 51.8%;
+        margin-top: 1%;
+    }
+    .banner__greeting {
+        top: 15%;
+        left: 18%;
+    }
+    .banner__btn-watch {
+        width: 46.5%;
+        margin: 0% auto 6% 3%;
+        padding: 2.5%;
+        font-size: 2.5vw;
+    }
+}
 .main__backstage {
     width: 100%;
     margin: auto;
