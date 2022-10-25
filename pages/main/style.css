@@ -296,6 +296,9 @@ h1 {
     }
 }
 @media screen and (max-width: 640px) {
+    .main__backstage {
+        overflow: hidden;
+    }
     .backstage__img-man {
         display: none;
     }
@@ -659,6 +662,9 @@ h1 {
 .stages__separator {
     margin-top: 8%;
 }
+.separator__pay-win640 {
+    display: none;
+}
 .pick-and-feed__btn-feed {
     display: block;
     margin: auto;
@@ -737,6 +743,75 @@ h1 {
         margin: 6% auto 1%;
         padding: 1.8%;
         font-size: 1.58vw;
+    }
+}
+@media screen and (max-width: 640px) {
+    .main__pick-and-feed {
+        padding-bottom: 3%;
+    }
+    .pick-and-feed__info {
+        width: 100%;
+    }
+    .pick-and-feed__info-h2 {
+        font-size: 6.55vw;
+        padding-top: 1.5%;
+    }
+    .pick-and-feed__info-first-p {
+        width: 100%;
+        margin-left: 3%;
+        margin-top: 3.4%;
+        font-size: 3.45vw;
+    }
+    .pick-and-feed__info-second-p {
+        width: 95%;
+        margin-left: 3%;
+        margin-top: 3.4%;
+        font-size: 2.505vw;
+    }
+    .pick-and-feed__info-third-p {
+        width: 95%;
+        margin-left: 3%;
+        margin-top: 1.2%;
+        font-size: 2.505vw;
+    }
+    .pick-and-feed__h3 {
+        margin-top: 5.4%;
+        font-size: 5.6vw;
+    }
+    .separator__pay {
+        display: none;
+    }
+    
+    .pick-and-feed__stages {
+        margin-top: 2.8%;
+        width: 94%;
+        position: relative;
+    }
+    .stages__stage {
+        width: 27.5%;
+    }
+    .stage__picture {
+        width: 26vw;
+        height: 26vw;
+    }
+    .stage__description {
+        width: 100%;
+        margin-top: 17%;
+        font-size: 2.5vw;
+    }
+    .separator__pay-win640 {
+        display: block;
+        width: 14%;
+        position: absolute;
+        top:-6%;    
+        margin-left: -8%;
+    }
+    .pick-and-feed__btn-feed {
+        width: 47%;
+        margin-top: 4%;
+        margin-bottom: 5.8%;
+        padding: 2.5%;
+        font-size: 2.45vw;
     }
 }
 .main__testimonials-h2 {
