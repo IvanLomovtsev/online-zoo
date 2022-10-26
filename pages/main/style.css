@@ -974,6 +974,7 @@ h1 {
     background: #4B9200;
 }
 .testimonials__leav {
+    width: 15.5%;
     position: absolute;
     right: 0%;
     bottom: -15%;
@@ -1029,9 +1030,74 @@ h1 {
         margin: 3.5% auto 14.2% 3%;
     }
     .testimonials__leav {
+        width: 24.5%;
         right: -2.5%;
         scale: 0.8;
     }
+}
+@media screen and (max-width: 640px) {
+    .main__testimonials-h2 {
+        margin-top: 9.4%;
+        font-size: 5.65vw;
+    }
+    .testimonials__last {
+        flex-direction: column;
+    }
+    .last__review {
+        width: 100%;
+        height: 16vw;
+        padding-bottom: 0.5%;
+        margin-bottom: 3%;
+    }
+    .last__review::before {
+        content: "";
+        position: absolute;
+        top: -2px;
+        bottom: -2px;
+        left: -2px;
+        right: -2px;
+        background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+        border-radius: 20px;
+        z-index: -1;
+    }
+    .review__profile {
+        margin-left: 1.8%;
+        margin-top: 2.1%;
+    }
+    .profile__picture {
+        margin: 0;
+    }
+    .profile__information {
+        margin-left: 2%;
+    }
+    .information__name {
+        font-size: 2.5vw;
+    }
+    .information__info {
+        margin-right: 1.2%;
+        font-size: 2.3vw;
+    }
+    .review__text {
+        width: 100%;
+        height: 8vw;
+        overflow: hidden;
+    }
+    .review__text-p {
+        margin-left: 2.6%;
+        margin-top: 2.5%;
+        font-size: 2.35vw;
+    }
+    .testimonials__progress {
+        display: none;
+    }
+    .testimonials__btn-feedback {
+        display: block;
+        width: 37.5%;
+        padding: 2.5%;
+        margin: 4% auto 12.5%;
+        font-size: 2.5vw;
+    }
+    
 }
 .footer {
     background: #111115;
