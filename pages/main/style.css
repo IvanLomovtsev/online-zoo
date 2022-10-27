@@ -88,7 +88,7 @@ h1 {
     .header__logo {
         margin: 0.5% 0% 0.1% ;
     }
-    .logo__img {
+    .header__logo>.logo__link>.logo__img {
         display: none;
     }
     .logo__img-win640 {
@@ -1097,7 +1097,6 @@ h1 {
         margin: 4% auto 12.5%;
         font-size: 2.5vw;
     }
-    
 }
 .footer {
     background: #111115;
@@ -1140,7 +1139,7 @@ h1 {
 .donate__btn-donate:focus {
     background: #4B9200;
 }
-.footer__social {
+.footer__social-network {
     margin-top: 4%;
     margin-bottom: 0;
 }
@@ -1169,7 +1168,7 @@ h1 {
     line-height: 140%;
     color: #FFFFFF;
 }
-.footer__social:last-child {
+.footer__social-network:last-child {
     margin-bottom: 50px;
 }
 .footer__menu {
@@ -1256,6 +1255,9 @@ h1 {
     margin-bottom: 3%;
     text-align: right;
 }
+.footer__design-640px {
+    display: none;
+}
 @media screen and (max-width: 1000px) {
     .footer>.containeer {
         width: 91.5%;
@@ -1270,7 +1272,7 @@ h1 {
     .donate__btn-donate {
         font-size: 1.6vw;
     }
-    .footer__social {
+    .footer__social-network {
         margin-top: 3.5%;
     }
     .social__logo {
@@ -1303,5 +1305,73 @@ h1 {
         font-size: 1.63vw;
         margin-right: -7.8%;
         margin-top: 5%;
+    }
+ }
+ @media screen and (max-width: 640px) {
+    .footer>.containeer {
+        width: 93.5%;
+        position: relative;
+        padding-bottom: 10%;
+    }
+    .footer__logo-donate-social {
+        width: 50%;
+    }
+    .footer__logo {
+        width: 100%;
+        margin-top: 4%;
+    }
+    .logo__img {
+        width: 27.5%;
+    }
+    .donate__btn-donate {
+        margin-top: 10%;
+        width: 100%;
+        font-size: 2.5vw;
+    }
+    .footer__subscribe {
+        display: none;
+    }
+    .footer__menu {
+        width: 67.5%;
+        left: 0%;
+        right: auto;
+        top: 17%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__menu-items {
+        margin-left: 0;
+    }
+    .footer__design-640px {
+        display: block;
+        margin-top: 35.2%;
+        margin-right: 2%;
+    }
+    .footer__design-p {
+        font-weight: 100;
+        font-size: 2.5vw;
+        margin-right: -2%;
+        margin-top: 4.4%;
+    }
+    .social__name {
+        display: none;
+    }
+    .footer__social {
+        position: absolute;
+        right: 0;
+        margin-top: -1%;
+    }
+    .social__link {
+        margin-top: 80%;
+    }
+    .social__logo {
+        width: 4vw;
+        height: 4vw;
+        border-radius: 25px;
+        background: rgba(196, 196, 196, 0.5);
+        margin-right: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
  }
