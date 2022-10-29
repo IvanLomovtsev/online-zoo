@@ -105,12 +105,11 @@ h1 {
         display: block;
     }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 320px) {
     .header__logo {
         width: 17%;
         margin: 0.5% 0% 0.5%;
     }
-    
 }
 .main__banner {
     margin-top: -5%;
@@ -205,11 +204,26 @@ h1 {
         font-size: 2.5vw;
     }
 }
+@media screen and (max-width: 320px) {
+    .main__banner {
+        padding-bottom: 14.5%;
+    }
+    .banner__ellipse {
+        margin-left: 51.8%;
+        margin-top: 6.8%;
+    }
+    .banner__btn-watch {
+        display: none;
+    }
+}
 .main__backstage {
     width: 100%;
     margin: auto;
     padding-top: 8%;
     position: relative;
+}
+.banner__btn-watch-320px {
+    display: none;
 }
 .backstage__row {
     margin: auto;
@@ -335,6 +349,38 @@ h1 {
         right: -5%;   
     }
 }
+@media screen and (max-width: 320px) {
+    .main__backstage {
+        padding-top: 6.5%;
+    }
+    .banner__btn-watch-320px {
+        display: block;
+        margin: auto;
+        width: 93%;
+        padding: 5.1%;
+        margin-bottom: 11.5%;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border-radius: 25px;
+        border: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 4.5vw;
+        line-height: 140%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .backstage__flower {
+        display: block;
+        width: 22%;
+        top: 14%; 
+        right: -12%;   
+    }
+}
+
+
 .main__pets {
     position: relative;
     display: flex;
