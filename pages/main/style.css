@@ -378,9 +378,28 @@ h1 {
         top: 14%; 
         right: -12%;   
     }
+    .backstage__text {
+        width: 98%;
+    }
+    .backstage__text-h2 {
+        margin-left: 0;
+    }
+    .backstage__text-about {
+        width: 100%;
+        margin-left: 0.8%;
+        margin-top: 4%;
+        font-size: 5vw;
+        line-height: 130%;
+    }
+    .backstage__text-h3 {
+        font-size: 7.4vw;
+        margin-bottom: 2.7%;
+    }
+    .backstage__text-goal {
+        margin-top: 0%;
+        font-size: 5vw;
+    }
 }
-
-
 .main__pets {
     position: relative;
     display: flex;
