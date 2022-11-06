@@ -795,6 +795,12 @@ h1 {
 .separator__pay-win640 {
     display: none;
 }
+.separator__pay-win320-first {
+    display: none;
+}
+.separator__pay-win320-second {
+    display: none;
+}
 .pick-and-feed__btn-feed {
     display: block;
     margin: auto;
@@ -911,7 +917,6 @@ h1 {
     .separator__pay {
         display: none;
     }
-    
     .pick-and-feed__stages {
         margin-top: 2.8%;
         width: 94%;
@@ -942,6 +947,84 @@ h1 {
         margin-bottom: 5.8%;
         padding: 2.5%;
         font-size: 2.45vw;
+    }
+}
+@media screen and (max-width: 320px) {
+    .main__pick-and-feed>.containeer {
+        width: 94%;
+    }
+    .pick-and-feed__info {
+        margin-top: 5.5%;
+        margin-bottom: 4%;
+        padding-top: 3.2%;
+    }
+    .pick-and-feed__info-h2 {
+        font-size: 7.5vw;
+    }
+    .pick-and-feed__info-first-p {
+        text-align: center;
+        width: 93%;
+        margin-top: 2.9%;
+        font-size: 5.6vw;
+    }
+    .pick-and-feed__info-second-p {
+        display: none;
+    }
+    .pick-and-feed__info-third-p {
+        display: none;
+    }
+    .pick-and-feed__h3 {
+        margin-top: 7%;
+        margin-bottom: 6.5%;
+        font-size: 7.5vw;
+    }
+    .pick-and-feed__stages {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .stages__stage {
+        margin: auto;
+        width: 70%;
+    }
+    .stage__picture {
+        margin: auto;
+        width: 52vw;
+        height: 52vw;
+    }
+    .stage__description {
+        width: 52vw;
+        margin: 4.8% auto 9%;
+        font-size: 5vw;
+    }
+    .stages__stage:last-child {
+        margin-top: -4%;
+    }
+    .separator__pay-win640 {
+        display: none;
+    }
+    .separator__pay-win320-first {
+        display: block;
+        width: 32%;
+        position: absolute;
+        transform: rotate(85deg);
+        top:26%;    
+        margin-left: 69%;   
+    }
+    .separator__pay-win320-second {
+        display: block;
+        width: 32%;
+        position: absolute;
+        transform: rotate(85deg);
+        top:60%;    
+        margin-left: 69%;   
+    }
+    .pick-and-feed__btn-feed {
+        margin-top: 7%;
+        margin-bottom: 9%;
+        padding: 5%;
+        width: 100%;
+        font-size: 4.9vw;
     }
 }
 .main__testimonials-h2 {
