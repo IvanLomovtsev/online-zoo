@@ -1354,6 +1354,13 @@ h1 {
         margin: 4.5% auto 18.5%;
         font-size: 5vw;
     }
+    .testimonials__leav {
+        width: 24.5%;
+        bottom: -9%;
+        right: -5.1%;
+        scale: 0.8;
+        transform: rotate(-15deg);
+    }
 }
 .footer {
     background: #111115;
@@ -1371,6 +1378,9 @@ h1 {
 .footer__logo {
     width: 28%;
     margin: 13% auto 0 0;
+}
+.logo__img-320px {
+    display: none;
 }
 .donate__btn-donate {
     width: 99%;
@@ -1630,5 +1640,78 @@ h1 {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+ }
+ @media screen and (max-width: 320px) {
+    .footer__row {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__logo-donate-social {
+        display: flex;
+        margin: auto;
+        width: 100%;
+    }
+    .footer__social {
+        position: relative;
+        margin-bottom: 1%;
+    }
+    .footer__social-network {
+        width: 9vw;
+        height: 0;
+    }
+    .footer__logo {
+        margin: auto;
+        margin-top: 6%;
+    }
+    .logo__img {
+        display: none;
+    }
+    .logo__img-320px {
+        display: block;
+        margin: auto;
+    }
+    .footer__donate {
+        order: 2; 
+        margin-top: 10%;
+    }
+    .donate__btn-donate {
+        margin-top: 0%;
+        margin-bottom: 5%;
+        width: 100%;
+        font-size: 5vw;
+    }
+    .footer__social {
+        order: 1;
+        display: flex;
+        margin: auto;
+        margin-top: 0%;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 65%;
+    }
+    .social__logo {
+        width: 8vw;
+        height: 8vw;
+        border-radius: 100px;
+    }
+    .footer__menu {
+        position: relative;
+        order: 2;
+        margin: auto;
+        margin-top: 8%;
+        width: 93%;
+    }
+    .footer__menu-items {
+        margin: auto;
+        width: 100%;
+    }
+    .footer__design-640px {
+        order: 1;
+        margin-top: 0%;
+    }
+    .footer__design-p {
+        font-size: 4.7vw;
     }
  }
